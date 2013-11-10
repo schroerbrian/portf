@@ -28,13 +28,28 @@ a  { text-decoration: none;
 .fl { float: left; }
 
 
+/* Dimensions
+  ========================================================================== */
+  .two3rds {
+    width: 66.66%;
+  }
+
+
 /* Spacing
   ========================================================================== */
-.phoriz { padding-left: 6rem; 
-          padding-right: 6rem; 
+.phorizsm { padding-left: 7rem; 
+          padding-right: 7rem; 
         }
 
-.pvert { padding-top: 3rem; 
+.pvertsm { padding-top: 3rem; 
+          padding-bottom: 3rem;  
+        }
+
+.phorizme { padding-left: 10rem; 
+          padding-right: 10rem; 
+        }
+
+.pvertme { padding-top: 3rem; 
           padding-bottom: 3rem;  
         }
 
@@ -54,3 +69,24 @@ a  { text-decoration: none;
   .med-tr {
     transition: 0.5 ease all;
   }
+
+/* Images
+  ========================================================================== */
+
+  .rnd { 
+    border-radius: 50%; 
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+  }
+
+  .smimg {
+    width: 13em;
+    height: auto;
+  }
+
+
+
+
+
+
+

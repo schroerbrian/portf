@@ -7,7 +7,11 @@
 /* Copy
    ========================================================================== */
 
-p, .sub-title {           font-size: $font-size-4; }
+p, .sub-title {           
+  font-size: $font-size-4;
+  color: $near-black;  
+ }
+
 .intro {      font-size: $font-size-3; }
 
 .serif { font-family: Baskerville, serif; }
@@ -17,34 +21,46 @@ p, .sub-title {           font-size: $font-size-4; }
 /* Weight
   ========================================================================== */
 
-.light { font-weight: 600 }
-.lightest { font-weight: 100 }
+.medium { font-weight: 600; }
+.light { font-weight: 400; }
+.lightest { font-weight: 100; }
 
 /* Headings
    ========================================================================== */
 
 h1,.h1 {      
   font-size: $font-size-1;
+  color: $near-black;
   margin: 0;               
 }
 
 h2,.h2 {      
-  font-size: $font-size-2; 
+  font-size: $font-size-2;
+  color: $near-black; 
   margin: 0;               
 }
 
 h3,.h3 {      
-  font-size: $font-size-3; 
+  font-size: $font-size-3;
+  color: $near-black; 
   margin: 0;
 }
 
 h4,.h4 {      
-  font-size: $font-size-4; 
+  font-size: $font-size-4;
+  color: $near-black; 
   margin: 0;
 }
 
-h5,.h5 {      font-size: $font-size-5; }
-h6,.h6 {      font-size: $font-size-6; }
+h5,.h5 {      
+  font-size: $font-size-5; 
+  color: $near-black;
+}
+
+h6,.h6 {      
+  font-size: $font-size-6; 
+  color: $near-black;
+}
 
 .meta {       font-size: $font-size-6; }
 
