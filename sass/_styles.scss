@@ -1,3 +1,56 @@
 /* ==========================================================================
    Site styles
    ========================================================================== */
+
+/* Elements
+ ========================================================================== */
+ul {  list-style-type: none; }
+
+a  { text-decoration: none;
+     color: inherit;
+     transition: 0.6s ease-in-out; 
+     &:hover {
+      color: $sky-blue;
+    }
+   }
+
+/* Positioning
+  ========================================================================== */
+.inlb { display: inline-block; }
+
+.inl { display: inline; }
+
+
+/* Floats
+  ========================================================================== */
+.fr { float: right; }
+
+.fl { float: left; }
+
+
+/* Spacing
+  ========================================================================== */
+.phoriz { padding-left: 6rem; 
+          padding-right: 6rem; 
+        }
+
+.pvert { padding-top: 3rem; 
+          padding-bottom: 3rem;  
+        }
+
+.no-marg { margin: 0; }
+
+.spc { padding-left: 2rem; }
+
+/* Color
+  ========================================================================== */
+  .sky-blue { color: $sky-blue; }
+  .grey, .gray { color: $gray-medium }
+
+
+/* Transitions
+  ========================================================================== */
+
+  .med-tr {
+    transition: 0.5 ease all;
+  }
