@@ -7,14 +7,25 @@
 /* Copy
    ========================================================================== */
 
-p, .sub-title {           
-  font-size: $font-size-4;
+.sub-title {   font-size: $font-size-18; }
+
+p {           
+  font-size: $font-size-5;
   color: $near-black;  
  }
 
 .intro {      font-size: $font-size-3; }
 
+.dkgray { 
+  color: $gray-dark;   
+}
+
+.sky-blue { color: $sky-blue; }
+
+.grey, .gray { color: $gray-medium }
+
 .serif { font-family: Baskerville, serif; }
+
 .sans-serif { font-family: Helvetica, sans-serif; }
 
 
@@ -55,6 +66,7 @@ h4,.h4 {
 h5,.h5 {      
   font-size: $font-size-5; 
   color: $near-black;
+  margin: 0;
 }
 
 h6,.h6 {      
@@ -65,3 +77,7 @@ h6,.h6 {
 .meta {       font-size: $font-size-6; }
 
 blockquote {  font-size: $font-size-2; }
+
+.text {   font-size: $font-size-5; }
+
+.sz18 { font-size: $font-size-18; }

@@ -14,11 +14,23 @@ a  { text-decoration: none;
     }
    }
 
-/* Positioning
+/* Positioning/Alignment
   ========================================================================== */
+.bl { display: block; }
+
 .inlb { display: inline-block; }
 
 .inl { display: inline; }
+
+.alrt { text-align: right;}
+
+.alt { text-align: left;}
+
+.alc { text-align: center;}
+
+.alju { text-align: justify;}
+
+.mar-auto { margin: 0 auto; } 
 
 
 /* Floats
@@ -27,26 +39,56 @@ a  { text-decoration: none;
 
 .fl { float: left; }
 
+.fn { float: none; }
 
 /* Dimensions
   ========================================================================== */
-  .two3rds {
-    width: 66.66%;
-  }
+
+
+.two3rds {
+  width: 66.66%;
+}
+
+  // @mixin breakpoint($point) {
+  //   @if $point == papa-bear {
+  //     @media (max-width: 1600px) { @content; }
+  //   }
+  //   @else if $point == mama-bear {
+  //     @media (max-width: 1250px) { @content; }
+  //   }
+  //   @else if $point == baby-bear {
+  //     @media (max-width: 650px)  { @content; }
+  //   }
+  // }
 
 
 /* Spacing
   ========================================================================== */
-.phorizsm { padding-left: 7rem; 
-          padding-right: 7rem; 
+
+.plsm { padding-left: 1rem; }
+
+.ptsm { padding-top: 1rem; }
+.ptmini { padding-top: 0.5rem; }
+
+
+.pbsm { padding-bottom: 1rem; }
+.pbmini { padding-bottom: 0.5rem; }
+
+
+.phorizsm { padding-left: 1rem; 
+          padding-right: 1rem; 
         }
 
-.pvertsm { padding-top: 3rem; 
-          padding-bottom: 3rem;  
+.pverttiny { padding-top: 0.25rem; 
+          padding-bottom: 0.25rem;  
         }
 
-.phorizme { padding-left: 10rem; 
-          padding-right: 10rem; 
+.pvertsm { padding-top: 1rem; 
+          padding-bottom: 1rem;  
+        }
+
+.phorizme { padding-left: 3rem; 
+          padding-right: 3rem; 
         }
 
 .pvertme { padding-top: 3rem; 
@@ -55,38 +97,67 @@ a  { text-decoration: none;
 
 .no-marg { margin: 0; }
 
-.spc { padding-left: 2rem; }
+.mlsm { margin-left: 1rem; }
 
 /* Color
   ========================================================================== */
-  .sky-blue { color: $sky-blue; }
-  .grey, .gray { color: $gray-medium }
+
 
 
 /* Transitions
   ========================================================================== */
 
-  .med-tr {
-    transition: 0.5 ease all;
-  }
+.med-tr {
+  transition: 0.5 ease all;
+}
 
 /* Images
   ========================================================================== */
 
-  .rnd { 
-    border-radius: 50%; 
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
+.rnd { 
+  border-radius: 50%; 
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+.smimg {
+  width: 13em;
+  height: auto;
+}
+
+.resp-img {
+  width: 95%;
+}
+
+
+/* Buttons
+  ========================================================================== */
+
+.btn-links {
+}
+
+.btn {
+  width: 40%;
+  float: left;
+  background:  $sky-blue;
+  color: $white;
+  text-decoration: none;
+  &:hover {
+    opacity: 0.8;
   }
+}
 
-  .smimg {
-    width: 13em;
-    height: auto;
-  }
-
-
-
-
+/* Borders
+  ========================================================================== */
+.brd-btm {
+  border-bottom: solid 1px $gray-light;
+}
 
 
 
+/* Overflow
+  ========================================================================== */
+
+.hid {
+  overflow: hidden;
+}

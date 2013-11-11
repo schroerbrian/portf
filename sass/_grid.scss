@@ -12,6 +12,15 @@
 
 @include break(not-small) {
 
+  
+  /* Media object
+    ========================================================================== */
+  .media, .blurb { overflow: hidden; _overflow:visible; zoom:1;}
+  .media img {float:left; margin-right:2rem;}
+  .img img {display:block;}
+
+
+
 }
 
 /* Medium - only targets 1st breakpoint. Styles do not extend past 64em.
