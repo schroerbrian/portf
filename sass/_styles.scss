@@ -168,6 +168,7 @@ a  { text-decoration: none;
   background:  $sky-blue;
   color: $white;
   text-decoration: none;
+  padding: 0.45rem 0;
   // &:hover {
   //   opacity: 0.8;
   // }
@@ -200,3 +201,8 @@ a  { text-decoration: none;
  }
 
  .fa { color: $near-black; }
+
+ .icons {
+  width: 1.9rem;
+
+ }

@@ -631,7 +631,8 @@ a {
   float: left;
   background: #64b9ff;
   color: white;
-  text-decoration: none; }
+  text-decoration: none;
+  padding: 0.45rem 0; }
 
 /* Borders
   ========================================================================== */
@@ -653,6 +654,9 @@ a {
 
 .fa {
   color: #111111; }
+
+.icons {
+  width: 1.9rem; }
 
 /* ==========================================================================
    Media Queries
