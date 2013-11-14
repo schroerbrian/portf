@@ -12,14 +12,44 @@
 
 @include break(not-small) {
 
-  
-  /* Media object
-    ========================================================================== */
-  .media, .blurb { overflow: hidden; _overflow:visible; zoom:1;}
-  .media img {float:left; margin-right:2rem;}
-  .img img {display:block;}
 
+/* Media object
+  ========================================================================== */
 
+/* Specific styles
+  ========================================================================== */
+
+.avtr {
+  width: 20rem;
+}
+
+.resp-img {
+  width: auto;
+}
+
+.blurb {
+  width: 30.33rem;
+}
+
+/* Styles
+  ========================================================================== */
+
+.phorizsm {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.btn {
+  width: 10.75rem;
+}
+
+.mlbig {
+ margin-left: 4rem
+}
+
+.contact {
+  text-align: center;
+}
 
 }
 

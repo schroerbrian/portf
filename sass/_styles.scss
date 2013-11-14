@@ -41,11 +41,6 @@ a  { text-decoration: none;
 /* Dimensions
   ========================================================================== */
 
-
-.two3rds {
-  width: 66.66%;
-}
-
 .three4ths {
   width: 75%;
 }
@@ -78,7 +73,7 @@ a  { text-decoration: none;
 .pbsm { padding-bottom: 1rem; }
 .pbmini { padding-bottom: 0.5rem; }
 
-.mbme { margin-bottom: 2rem; }
+.mbme { margin-bottom: 1.5rem; }
 
 /* Left */
 .plmini { padding-left: 0.5rem; }
@@ -107,6 +102,10 @@ a  { text-decoration: none;
           padding-bottom: 1rem;  
         }
 
+.mvertsm {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 /* Left and Right */
 .phorizme { padding-left: 3rem; 
           padding-right: 3rem; 
@@ -115,6 +114,7 @@ a  { text-decoration: none;
 .pvertme { padding-top: 3rem; 
           padding-bottom: 3rem;  
         }
+
 
 /* Nothing whatsoever */
 .no-marg { margin: 0; }
@@ -147,8 +147,12 @@ a  { text-decoration: none;
   height: auto;
 }
 
+.avtr {
+  width: 12rem;
+}
+
 .resp-img {
-  width: 95%;
+  width: 17.25rem;
 }
 
 
@@ -195,6 +199,4 @@ a  { text-decoration: none;
   padding-top: 0.25rem;
  }
 
- .fa {
-  color: $near-black;
- }
+ .fa { color: $near-black; }
