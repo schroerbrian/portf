@@ -393,7 +393,7 @@ p {
 .intro {
   font-size: 32px; }
 
-.dkgray {
+.dkgray, .dkgrey {
   color: #222222; }
 
 .sky-blue {
@@ -462,6 +462,9 @@ blockquote {
 .sz18 {
   font-size: 18px; }
 
+.sz24 {
+  font-size: 24px; }
+
 /* ==========================================================================
    Site styles
    ========================================================================== */
@@ -474,8 +477,6 @@ a {
   text-decoration: none;
   color: inherit;
   transition: 0.6s ease-in-out; }
-  a:hover {
-    color: #64b9ff; }
 
 /* Positioning/Alignment
   ========================================================================== */
@@ -491,7 +492,7 @@ a {
 .alrt {
   text-align: right; }
 
-.alt {
+.allt {
   text-align: left; }
 
 .alc {
@@ -500,7 +501,7 @@ a {
 .alju {
   text-align: justify; }
 
-.mar-auto {
+.mauto {
   margin: 0 auto; }
 
 /* Floats
@@ -530,6 +531,9 @@ a {
 .ptmini {
   padding-top: 0.5rem; }
 
+.pbme {
+  padding-bottom: 1.5rem; }
+
 .pbsm {
   padding-bottom: 1rem; }
 
@@ -540,7 +544,7 @@ a {
   padding-left: 1rem;
   padding-right: 1rem; }
 
-.pverttiny {
+.pvertmini {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem; }
 
@@ -561,6 +565,9 @@ a {
 
 .mlsm {
   margin-left: 1rem; }
+
+.mlmini {
+  margin-left: 0.5rem; }
 
 /* Color
   ========================================================================== */
@@ -586,13 +593,11 @@ a {
 /* Buttons
   ========================================================================== */
 .btn {
-  width: 40%;
+  width: 8.75rem;
   float: left;
   background: #64b9ff;
   color: white;
   text-decoration: none; }
-  .btn:hover {
-    opacity: 0.8; }
 
 /* Borders
   ========================================================================== */
@@ -603,3 +608,8 @@ a {
   ========================================================================== */
 .hid {
   overflow: hidden; }
+
+/* Custom styles
+ ========================================================================== */
+.container {
+  padding-top: 0.25rem; }

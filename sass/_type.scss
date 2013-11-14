@@ -16,7 +16,7 @@ p {
 
 .intro {      font-size: $font-size-3; }
 
-.dkgray { 
+.dkgray, .dkgrey { 
   color: $gray-dark;   
 }
 
@@ -81,3 +81,5 @@ blockquote {  font-size: $font-size-2; }
 .text {   font-size: $font-size-5; }
 
 .sz18 { font-size: $font-size-18; }
+
+.sz24 { font-size: $font-size-4; }
