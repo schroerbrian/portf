@@ -46,6 +46,9 @@ a  { text-decoration: none;
   width: 66.66%;
 }
 
+.three4ths {
+  width: 75%;
+}
   // @mixin breakpoint($point) {
   //   @if $point == papa-bear {
   //     @media (max-width: 1600px) { @content; }
@@ -78,6 +81,7 @@ a  { text-decoration: none;
 .mbme { margin-bottom: 2rem; }
 
 /* Left */
+.plmini { padding-left: 0.5rem; }
 .plsm { padding-left: 1rem; }
 .plme { padding-left: 2rem; }
 

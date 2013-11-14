@@ -406,7 +406,7 @@ p {
   font-family: Baskerville, serif; }
 
 .sans-serif {
-  font-family: Helvetica, sans-serif; }
+  font-family: "Montserrat", Helvetica, sans-serif; }
 
 /* Weight
   ========================================================================== */
@@ -522,6 +522,9 @@ a {
 .two3rds {
   width: 66.66%; }
 
+.three4ths {
+  width: 75%; }
+
 /* Spacing
   ========================================================================== */
 /* Top */
@@ -548,6 +551,9 @@ a {
   margin-bottom: 2rem; }
 
 /* Left */
+.plmini {
+  padding-left: 0.5rem; }
+
 .plsm {
   padding-left: 1rem; }
 
