@@ -450,6 +450,8 @@ h6, .h6 {
   font-size: 12px;
   color: #111111; }
 
+/* Sizes
+   ========================================================================== */
 .meta {
   font-size: 12px; }
 
@@ -522,15 +524,17 @@ a {
 
 /* Spacing
   ========================================================================== */
-.plsm {
-  padding-left: 1rem; }
-
+/* Top */
 .ptsm {
   padding-top: 1rem; }
 
 .ptmini {
   padding-top: 0.5rem; }
 
+.mtsm {
+  margin-top: 1rem; }
+
+/* Bottom */
 .pbme {
   padding-bottom: 1.5rem; }
 
@@ -540,6 +544,30 @@ a {
 .pbmini {
   padding-bottom: 0.5rem; }
 
+.mbme {
+  margin-bottom: 2rem; }
+
+/* Left */
+.plsm {
+  padding-left: 1rem; }
+
+.plme {
+  padding-left: 2rem; }
+
+.mlsm {
+  margin-left: 1rem; }
+
+.mlmini {
+  margin-left: 0.5rem; }
+
+/* Left */
+.prsm {
+  padding-right: 1rem; }
+
+.prme {
+  padding-right: 2rem; }
+
+/* Top and Bottom */
 .phorizsm {
   padding-left: 1rem;
   padding-right: 1rem; }
@@ -552,6 +580,7 @@ a {
   padding-top: 1rem;
   padding-bottom: 1rem; }
 
+/* Left and Right */
 .phorizme {
   padding-left: 3rem;
   padding-right: 3rem; }
@@ -560,14 +589,12 @@ a {
   padding-top: 3rem;
   padding-bottom: 3rem; }
 
+/* Nothing whatsoever */
 .no-marg {
   margin: 0; }
 
-.mlsm {
-  margin-left: 1rem; }
-
-.mlmini {
-  margin-left: 0.5rem; }
+.no-p {
+  padding: 0; }
 
 /* Color
   ========================================================================== */
@@ -604,6 +631,9 @@ a {
 .brd-btm {
   border-bottom: solid 1px #eeeeee; }
 
+.brd-top {
+  border-top: solid 1px #eeeeee; }
+
 /* Overflow
   ========================================================================== */
 .hid {
@@ -613,3 +643,6 @@ a {
  ========================================================================== */
 .container {
   padding-top: 0.25rem; }
+
+.fa {
+  color: #111111; }

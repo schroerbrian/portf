@@ -62,17 +62,36 @@ a  { text-decoration: none;
 /* Spacing
   ========================================================================== */
 
-.plsm { padding-left: 1rem; }
 
+/* Top */
 .ptsm { padding-top: 1rem; }
 .ptmini { padding-top: 0.5rem; }
 
+.mtsm { margin-top: 1rem; }
+
+
+/* Bottom */
 .pbme { padding-bottom: 1.5rem; }
 .pbsm { padding-bottom: 1rem; }
 .pbmini { padding-bottom: 0.5rem; }
 
+.mbme { margin-bottom: 2rem; }
 
-.phorizsm { padding-left: 1rem; 
+/* Left */
+.plsm { padding-left: 1rem; }
+.plme { padding-left: 2rem; }
+
+.mlsm { margin-left: 1rem; }
+.mlmini { margin-left: 0.5rem; }
+
+/* Left */
+.prsm { padding-right: 1rem; }
+.prme { padding-right: 2rem; }
+
+
+/* Top and Bottom */
+.phorizsm { 
+          padding-left: 1rem; 
           padding-right: 1rem; 
         }
 
@@ -84,6 +103,7 @@ a  { text-decoration: none;
           padding-bottom: 1rem;  
         }
 
+/* Left and Right */
 .phorizme { padding-left: 3rem; 
           padding-right: 3rem; 
         }
@@ -92,10 +112,9 @@ a  { text-decoration: none;
           padding-bottom: 3rem;  
         }
 
+/* Nothing whatsoever */
 .no-marg { margin: 0; }
-
-.mlsm { margin-left: 1rem; }
-.mlmini { margin-left: 0.5rem; }
+.no-p { padding: 0; }
 
 
 /* Color
@@ -152,7 +171,9 @@ a  { text-decoration: none;
   border-bottom: solid 1px $gray-light;
 }
 
-
+.brd-top {
+  border-top: solid 1px $gray-light;
+}
 
 /* Overflow
   ========================================================================== */
@@ -168,4 +189,8 @@ a  { text-decoration: none;
 
  .container {
   padding-top: 0.25rem;
+ }
+
+ .fa {
+  color: $near-black;
  }
