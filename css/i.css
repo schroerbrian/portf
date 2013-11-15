@@ -376,7 +376,7 @@ p {
   font-family: Baskerville, serif; }
 
 .sans-serif {
-  font-family: "Montserrat", Helvetica, sans-serif; }
+  font-family: "Raleway", Helvetica, sans-serif; }
 
 /* Weight
   ========================================================================== */
@@ -475,7 +475,11 @@ ul {
 a {
   text-decoration: none;
   color: inherit;
-  transition: 0.6s ease-in-out; }
+  transition: all 0.6s ease-in-out;
+  -webkit-transition: all 0.6 ease-in-out;
+  -moz-transition: all 0.6 ease-in-out; }
+  a:hover {
+    color: #64b9ff; }
 
 /* Positioning/Alignment
   ========================================================================== */
@@ -605,7 +609,15 @@ a {
 /* Transitions
   ========================================================================== */
 .med-tr {
-  transition: 0.5 ease all; }
+  transition: all 0.5 ease;
+  -webkit-transition: all 0.5 ease;
+  -moz-transition: all 0.5 ease; }
+
+.opacity:hover {
+  opacity: 0.8;
+  transition: opacity 0.6s ease-in-out;
+  -webkit-transition: opacity 0.6 ease-in-out;
+  -moz-transition: opacity 0.6 ease-in-out; }
 
 /* Images
   ========================================================================== */
@@ -633,6 +645,8 @@ a {
   color: white;
   text-decoration: none;
   padding: 0.45rem 0; }
+  .btn:hover {
+    background: #eeeeee; }
 
 /* Borders
   ========================================================================== */
@@ -656,7 +670,30 @@ a {
   color: #111111; }
 
 .icons {
-  width: 1.9rem; }
+  width: 34px;
+  height: 34px;
+  background: url("../Public/icon_sprite.png") no-repeat;
+  transition: none; }
+
+.ic-email {
+  background-position: 0 -82px; }
+  .ic-email:hover {
+    background-position: 0 0; }
+
+.ic-git {
+  background-position: 0 -246px; }
+  .ic-git:hover {
+    background-position: 0 -164px; }
+
+.ic-link {
+  background-position: 0 -410px; }
+  .ic-link:hover {
+    background-position: 0 -328px; }
+
+.ic-twit {
+  background-position: 0 -574px; }
+  .ic-twit:hover {
+    background-position: 0 -492px; }
 
 /* ==========================================================================
    Media Queries
