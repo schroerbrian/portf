@@ -438,7 +438,12 @@ blockquote {
   font-size: 24px; }
 
 /* Not-small (anything bigger than your first breakpoint) */
-@media screen and (min-width: 48em) {
+/* Medium - only targets 1st breakpoint. Styles do not extend past 64em.
+   ========================================================================== */
+@media screen and (min-width: 48em) and (max-width: 64em) {
+  .text {
+    font-size: 18px; }
+
   h1, .h1 {
     font-size: 64px; }
 
@@ -458,15 +463,10 @@ blockquote {
     font-size: 12px; }
 
   .sz18 {
-    font-size: 21px; }
+    font-size: 20px; }
 
   .sz24 {
     font-size: 27px; } }
-/* Medium - only targets 1st breakpoint. Styles do not extend past 64em.
-   ========================================================================== */
-@media screen and (min-width: 48em) and (max-width: 64em) {
-  .text {
-    font-size: 18px; } }
 /* Large - only targets 2nd breakpoint. Styles do not extend below 64em.
    ========================================================================== */
 @media screen and (min-width: 64em) {
@@ -475,7 +475,22 @@ blockquote {
     margin: 0 auto; }
 
   .text {
-    font-size: 21px; } }
+    font-size: 20px; }
+
+  h3, .h3 {
+    font-size: 42px; }
+
+  h4, .h4 {
+    font-size: 34px; }
+
+  h5, .h5 {
+    font-size: 20px; }
+
+  .sz18 {
+    font-size: 20px; }
+
+  .sz24 {
+    font-size: 34px; } }
 /* ==========================================================================
    Site styles
    ========================================================================== */
@@ -730,7 +745,7 @@ a {
   /* Specific styles
     ========================================================================== */
   .avtr {
-    width: 20rem; }
+    width: 16rem; }
 
   .resp-img {
     width: auto; }
@@ -743,10 +758,6 @@ a {
 
   /* Styles
     ========================================================================== */
-  .phorizsm {
-    padding-left: 3rem;
-    padding-right: 3rem; }
-
   .btn {
     width: 14.25rem; }
     .btn:nth-of-type(2) {
@@ -756,9 +767,17 @@ a {
     text-align: center; } }
 /* Medium - only targets 1st breakpoint. Styles do not extend past 64em.
    ========================================================================== */
+@media screen and (min-width: 48em) and (max-width: 64em) {
+  .phorizsm {
+    padding-left: 3rem;
+    padding-right: 3rem; } }
 /* Large - only targets 2nd breakpoint. Styles do not extend below 64em.
    ========================================================================== */
 @media screen and (min-width: 64em) {
   .mo-wrap {
     width: 66%;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+
+  .phorizsm {
+    padding-left: 7rem;
+    padding-right: 7rem; } }

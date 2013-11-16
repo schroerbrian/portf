@@ -20,7 +20,7 @@
   ========================================================================== */
 
 .avtr {
-  width: 20rem;
+  width: 16rem;
 }
 
 .resp-img {
@@ -39,11 +39,6 @@
 /* Styles
   ========================================================================== */
 
-.phorizsm {
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
-
 .btn {
   width: 14.25rem;
   &:nth-of-type(2) {
@@ -61,7 +56,10 @@
    ========================================================================== */
 
 @include break(medium) {
-
+  .phorizsm {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
 }
 
 /* Large - only targets 2nd breakpoint. Styles do not extend below 64em.
@@ -72,5 +70,11 @@
     width: 66%;
     margin: 0 auto;
   }
+
+  .phorizsm {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+
 }
 
