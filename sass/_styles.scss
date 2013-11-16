@@ -49,6 +49,10 @@ a  { text-decoration: none;
 .three4ths {
   width: 75%;
 }
+
+.wi-20 {
+  width: 18rem;
+}
   // @mixin breakpoint($point) {
   //   @if $point == papa-bear {
   //     @media (max-width: 1600px) { @content; }
@@ -186,6 +190,9 @@ a  { text-decoration: none;
   &:hover {
     background: $gray-light;
   }
+  &:nth-of-type(2) {
+    margin-left: 0.5rem;
+  }
 }
 
 /* Borders
@@ -214,6 +221,10 @@ a  { text-decoration: none;
  }
 
  .fa { color: $near-black; }
+
+ .blurb {
+  width: 18rem;
+ }
 
  .icons {
   width: 34px;
