@@ -783,12 +783,25 @@ a {
     min-width: 52rem;
     margin: 0 auto; }
 
+  .media {
+    height: 330px; }
+
   .proj-ti {
     margin: 0; }
 
   .wk-img {
-    width: 40%;
+    position: relative;
+    width: 45%;
+    height: 330px;
     float: left; }
+
+  .resp-img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto; }
 
   .wk-blurb {
     width: 45%; }
