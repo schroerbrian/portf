@@ -774,10 +774,33 @@ a {
 /* Large - only targets 2nd breakpoint. Styles do not extend below 64em.
    ========================================================================== */
 @media screen and (min-width: 64em) {
+  /* Specific styles
+    ========================================================================== */
+  /* Media Object
+    ========================================================================== */
   .mo-wrap {
     width: 66%;
+    min-width: 52rem;
     margin: 0 auto; }
 
+  .proj-ti {
+    margin: 0; }
+
+  .wk-img {
+    width: 40%;
+    float: left; }
+
+  .wk-blurb {
+    width: 45%; }
+
+  .btn-links {
+    width: 100%; }
+
+  .btn {
+    width: 46%; }
+
+  /* Styles
+    ========================================================================== */
   .phorizsm {
     padding-left: 7rem;
     padding-right: 7rem; } }
