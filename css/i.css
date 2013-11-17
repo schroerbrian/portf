@@ -565,6 +565,9 @@ a {
 .mtsm {
   margin-top: 1rem; }
 
+.mbsm {
+  margin-bottom: 1rem; }
+
 /* Bottom */
 .pbme {
   padding-bottom: 1.5rem; }
@@ -745,7 +748,7 @@ a {
   /* Specific styles
     ========================================================================== */
   .avtr {
-    width: 16rem; }
+    width: 15rem; }
 
   .resp-img {
     width: auto; }
@@ -776,7 +779,30 @@ a {
 @media screen and (min-width: 64em) {
   /* Specific styles
     ========================================================================== */
-  /* Media Object
+  /* Avatar Media Object
+   ========================================================================== */
+  .about {
+    height: 300px; }
+
+  .av-wrpr {
+    display: inline-block;
+    margin-left: 20px; }
+
+  .avtr {
+    display: inline-block; }
+
+  .ab-blurb {
+    display: inline-block;
+    width: 42%;
+    margin: 50px 20px; }
+
+  .about .media-av {
+    height: auto;
+    width: 66%;
+    min-width: 52rem;
+    margin: 30px auto 0; }
+
+  /* Work Media Object
     ========================================================================== */
   .mo-wrap {
     width: 66%;
@@ -804,7 +830,17 @@ a {
     margin: auto; }
 
   .wk-blurb {
-    width: 45%; }
+    width: 45%;
+    padding-top: 0; }
+
+  .blurb-gro {
+    margin: 40px auto; }
+
+  .blurb-loc {
+    margin: 60px auto; }
+
+  .blurb-tai {
+    margin: 60px auto; }
 
   .btn-links {
     width: 100%; }
