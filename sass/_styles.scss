@@ -9,8 +9,8 @@ ul {  list-style-type: none; }
 a  { text-decoration: none;
      color: inherit;
      transition: all 0.6s ease-in-out; 
-     -webkit-transition: all 0.6 ease-in-out;
-     -moz-transition: all 0.6 ease-in-out;
+     -webkit-transition: all 0.6s ease-in-out;
+     -moz-transition: all 0.6s ease-in-out;
      &:hover {
       color: $sky-blue;
      }
@@ -137,18 +137,23 @@ a  { text-decoration: none;
 
 /* Transitions
   ========================================================================== */
+.qk-tr {
+  transition: all 0.4s ease-in-out; 
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+}
 
 .med-tr {
-  transition: all 0.5 ease;
-  -webkit-transition: all 0.5 ease;
-  -moz-transition: all 0.5 ease;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
 }
 
 .opacity:hover {
   opacity: 0.8;
   transition: opacity 0.6s ease-in-out; 
-  -webkit-transition: opacity 0.6 ease-in-out;
-  -moz-transition: opacity 0.6 ease-in-out;
+  -webkit-transition: opacity 0.6s ease-in-out;
+  -moz-transition: opacity 0.6s ease-in-out;
 }
 
 /* Images
@@ -171,6 +176,10 @@ a  { text-decoration: none;
 
 .resp-img {
   width: 17.25rem;
+}
+
+.resp-loc {
+  width: 12rem;
 }
 
 
@@ -233,6 +242,13 @@ a  { text-decoration: none;
   transition: none;
  }
 
+ .icons-res {
+  width: 34px;
+  height: 34px;
+  background: url("../Public/res_sprite.png") no-repeat;
+  transition: none;
+ }
+
  .ic-email {
   background-position: 0 -82px;
   &:hover {
@@ -254,9 +270,16 @@ a  { text-decoration: none;
   }
  }
 
- .ic-twit {
-  background-position: 0 -574px;
-  &:hover {
-    background-position: 0 -492px;
+  .ic-twit {
+    background-position: 0 -574px;
+    &:hover {
+      background-position: 0 -492px;
+    }
+  } 
+
+  .ic-res {
+    background-position: 0 0px;
+    &:hover {
+      background-position: 0 -82px;
+    }
   }
- }

@@ -503,8 +503,8 @@ a {
   text-decoration: none;
   color: inherit;
   transition: all 0.6s ease-in-out;
-  -webkit-transition: all 0.6 ease-in-out;
-  -moz-transition: all 0.6 ease-in-out; }
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out; }
   a:hover {
     color: #64b9ff; }
 
@@ -641,16 +641,21 @@ a {
   ========================================================================== */
 /* Transitions
   ========================================================================== */
+.qk-tr {
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out; }
+
 .med-tr {
-  transition: all 0.5 ease;
-  -webkit-transition: all 0.5 ease;
-  -moz-transition: all 0.5 ease; }
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease; }
 
 .opacity:hover {
   opacity: 0.8;
   transition: opacity 0.6s ease-in-out;
-  -webkit-transition: opacity 0.6 ease-in-out;
-  -moz-transition: opacity 0.6 ease-in-out; }
+  -webkit-transition: opacity 0.6s ease-in-out;
+  -moz-transition: opacity 0.6s ease-in-out; }
 
 /* Images
   ========================================================================== */
@@ -668,6 +673,9 @@ a {
 
 .resp-img {
   width: 17.25rem; }
+
+.resp-loc {
+  width: 12rem; }
 
 /* Buttons
   ========================================================================== */
@@ -713,6 +721,12 @@ a {
   background: url("../Public/icon_sprite.png") no-repeat;
   transition: none; }
 
+.icons-res {
+  width: 34px;
+  height: 34px;
+  background: url("../Public/res_sprite.png") no-repeat;
+  transition: none; }
+
 .ic-email {
   background-position: 0 -82px; }
   .ic-email:hover {
@@ -732,6 +746,11 @@ a {
   background-position: 0 -574px; }
   .ic-twit:hover {
     background-position: 0 -492px; }
+
+.ic-res {
+  background-position: 0 0px; }
+  .ic-res:hover {
+    background-position: 0 -82px; }
 
 /* ==========================================================================
    Media Queries
