@@ -499,13 +499,13 @@ blockquote {
 ul {
   list-style-type: none; }
 
-a {
+a, .ho-link {
   text-decoration: none;
   color: inherit;
   transition: all 0.6s ease-in-out;
   -webkit-transition: all 0.6s ease-in-out;
   -moz-transition: all 0.6s ease-in-out; }
-  a:hover {
+  a:hover, .ho-link:hover {
     color: #64b9ff; }
 
 /* Positioning/Alignment
@@ -680,12 +680,15 @@ a {
 /* Buttons
   ========================================================================== */
 .btn {
-  width: 8.75rem;
+  width: 8.25rem;
   float: left;
   background: #64b9ff;
   color: white;
   text-decoration: none;
-  padding: 0.45rem 0; }
+  padding: 0.45rem 0;
+  transition: 0.4s ease-in-out all;
+  -webkit-transition: 0.4s ease-in-out all;
+  -moz-transition: 0.4s ease-in-out all; }
   .btn:hover {
     background: #eeeeee; }
   .btn:nth-of-type(2) {
@@ -713,7 +716,7 @@ a {
   color: #111111; }
 
 .blurb {
-  width: 18rem; }
+  width: 17rem; }
 
 .icons {
   width: 34px;
@@ -812,7 +815,7 @@ a {
 
   .ab-blurb {
     display: inline-block;
-    width: 42%;
+    width: 45%;
     margin: 50px 20px; }
 
   .about .media-av {
@@ -833,6 +836,8 @@ a {
 
   .proj-ti {
     margin: 0; }
+    .proj-ti:not(:first-of-type) {
+      padding-top: 1.5rem; }
 
   .wk-img {
     position: relative;
@@ -853,13 +858,13 @@ a {
     padding-top: 0; }
 
   .blurb-gro {
-    margin: 40px auto; }
+    margin: 25px auto; }
 
   .blurb-loc {
     margin: 60px auto; }
 
   .blurb-tai {
-    margin: 60px auto; }
+    margin: 25px auto; }
 
   .btn-links {
     width: 100%; }
@@ -867,8 +872,17 @@ a {
   .btn {
     width: 46%; }
 
+  /* ========================================================================== */
   /* Styles
+    ========================================================================== */
+  /* Spacing
     ========================================================================== */
   .phorizsm {
     padding-left: 7rem;
-    padding-right: 7rem; } }
+    padding-right: 7rem; }
+
+  .pbme {
+    padding-bottom: 2rem; }
+
+  .ptsm {
+    padding-top: 1.5rem; } }

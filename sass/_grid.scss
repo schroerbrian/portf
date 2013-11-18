@@ -50,6 +50,7 @@
   text-align: center;
 }
 
+
 }
 
 /* Medium - only targets 1st breakpoint. Styles do not extend past 64em.
@@ -89,7 +90,7 @@
 
    .ab-blurb {
     display: inline-block;
-    width: 42%;
+    width: 45%;
     margin: 50px 20px;
    }
 
@@ -115,6 +116,9 @@
 
   .proj-ti {
     margin: 0;
+    &:not(:first-of-type) {
+      padding-top: 1.5rem;
+    }
   }
 
   .wk-img {
@@ -139,7 +143,7 @@
   }
 
   .blurb-gro {
-    margin: 40px auto;
+    margin: 25px auto;
   }
 
   .blurb-loc {
@@ -147,7 +151,7 @@
   }
 
   .blurb-tai {
-    margin: 60px auto;
+    margin: 25px auto;
   }
 
   .btn-links {
@@ -158,12 +162,24 @@
     width: 46%;
   }
 
+  /* ========================================================================== */
   /* Styles
+    ========================================================================== */
+
+  /* Spacing
     ========================================================================== */
 
   .phorizsm {
     padding-left: 7rem;
     padding-right: 7rem;
+  }
+
+  .pbme {
+    padding-bottom: 2rem;
+  }
+
+  .ptsm {
+    padding-top: 1.5rem;
   }
 
 }
