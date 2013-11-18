@@ -726,13 +726,13 @@ a, .ho-link {
 .icons {
   width: 34px;
   height: 34px;
-  background: url("../Public/icon_sprite.png") no-repeat;
+  background: url("../public/icon_sprite.png") no-repeat;
   transition: none; }
 
 .icons-res {
   width: 34px;
   height: 34px;
-  background: url("../Public/res_sprite.png") no-repeat;
+  background: url("../public/res_sprite.png") no-repeat;
   transition: none; }
 
 .ic-email {
