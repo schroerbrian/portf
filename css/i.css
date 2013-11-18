@@ -356,12 +356,15 @@ table {
    ========================================================================== */
 /* Copy
    ========================================================================== */
+body {
+  color: #2b2b2b; }
+
 .sub-title {
   font-size: 18px; }
 
 p {
   font-size: 16px;
-  color: #111111; }
+  color: #2b2b2b; }
 
 .dkgray, .dkgrey {
   color: #222222; }
@@ -393,32 +396,32 @@ p {
    ========================================================================== */
 h1, .h1 {
   font-size: 64px;
-  color: #111111;
+  color: #2b2b2b;
   margin: 0; }
 
 h2, .h2 {
   font-size: 48px;
-  color: #111111;
+  color: #2b2b2b;
   margin: 0; }
 
 h3, .h3 {
   font-size: 32px;
-  color: #111111;
+  color: #2b2b2b;
   margin: 0; }
 
 h4, .h4 {
   font-size: 24px;
-  color: #111111;
+  color: #2b2b2b;
   margin: 0; }
 
 h5, .h5 {
   font-size: 16px;
-  color: #111111;
+  color: #2b2b2b;
   margin: 0; }
 
 h6, .h6 {
   font-size: 12px;
-  color: #111111; }
+  color: #2b2b2b; }
 
 /* Sizes
    ========================================================================== */
@@ -715,7 +718,7 @@ a, .ho-link {
   padding-top: 0.25rem; }
 
 .fa {
-  color: #111111; }
+  color: #2b2b2b; }
 
 .blurb {
   width: 17rem; }
@@ -817,7 +820,7 @@ a, .ho-link {
 
   .ab-blurb {
     display: inline-block;
-    width: 45%;
+    width: 42%;
     margin: 50px 35px; }
 
   .about .media-av {
@@ -837,7 +840,9 @@ a, .ho-link {
     height: 330px; }
 
   .proj-ti {
-    margin: 0; }
+    margin: 0;
+    display: inline-block;
+    width: auto; }
     .proj-ti:not(:first-of-type) {
       padding-top: 1.5rem; }
 
@@ -887,4 +892,7 @@ a, .ho-link {
     padding-bottom: 2rem; }
 
   .ptsm {
-    padding-top: 1.5rem; } }
+    padding-top: 1.5rem; }
+
+  .plsm {
+    padding-left: 1.5rem; } }

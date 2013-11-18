@@ -90,7 +90,7 @@
 
    .ab-blurb {
     display: inline-block;
-    width: 45%;
+    width: 42%;
     margin: 50px 35px;
    }
 
@@ -116,6 +116,8 @@
 
   .proj-ti {
     margin: 0;
+    display: inline-block;
+    width: auto;
     &:not(:first-of-type) {
       padding-top: 1.5rem;
     }
@@ -180,6 +182,10 @@
 
   .ptsm {
     padding-top: 1.5rem;
+  }
+
+  .plsm {
+    padding-left: 1.5rem;
   }
 
 }
