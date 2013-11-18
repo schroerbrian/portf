@@ -499,9 +499,11 @@ blockquote {
 ul {
   list-style-type: none; }
 
+a {
+  color: inherit; }
+
 a, .ho-link {
   text-decoration: none;
-  color: inherit;
   transition: all 0.6s ease-in-out;
   -webkit-transition: all 0.6s ease-in-out;
   -moz-transition: all 0.6s ease-in-out; }
@@ -808,7 +810,7 @@ a, .ho-link {
 
   .av-wrpr {
     display: inline-block;
-    margin-left: 20px; }
+    margin-left: 35px; }
 
   .avtr {
     display: inline-block; }
@@ -816,7 +818,7 @@ a, .ho-link {
   .ab-blurb {
     display: inline-block;
     width: 45%;
-    margin: 50px 20px; }
+    margin: 50px 35px; }
 
   .about .media-av {
     height: auto;
