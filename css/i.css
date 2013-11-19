@@ -778,7 +778,7 @@ a, .ho-link {
   /* Specific styles
     ========================================================================== */
   .avtr {
-    width: 15rem; }
+    width: 13rem; }
 
   .resp-img {
     width: auto; }
@@ -812,25 +812,18 @@ a, .ho-link {
   /* Avatar Media Object
    ========================================================================== */
   .about {
-    height: 300px; }
-
-  .av-wrpr {
-    display: inline-block;
-    margin-left: 35px; }
-
-  .avtr {
-    display: inline-block; }
+    height: auto; }
 
   .ab-blurb {
     display: inline-block;
-    width: 42%;
-    margin: 50px 35px; }
+    width: 55%;
+    margin: 10px 35px; }
 
   .about .media-av {
     height: auto;
     width: 66%;
     min-width: 52rem;
-    margin: 30px auto 0; }
+    margin: 20px auto 0; }
 
   /* Work Media Object
     ========================================================================== */
@@ -876,7 +869,7 @@ a, .ho-link {
     margin: 25px auto; }
 
   .blurb-loc {
-    margin: 60px auto; }
+    margin: 25px auto; }
 
   .blurb-tai {
     margin: 25px auto; }
@@ -893,14 +886,17 @@ a, .ho-link {
   /* Spacing
     ========================================================================== */
   .phorizsm {
-    padding-left: 7rem;
-    padding-right: 7rem; }
+    padding-left: 8rem;
+    padding-right: 8rem; }
 
   .pbme {
-    padding-bottom: 2rem; }
+    padding-bottom: 2.5rem; }
 
   .ptsm {
     padding-top: 1.5rem; }
 
   .plsm {
-    padding-left: 1.5rem; } }
+    padding-left: 1.5rem; }
+
+  .sec-title {
+    padding-top: 1rem; } }
