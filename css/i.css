@@ -513,6 +513,9 @@ a, .ho-link {
   a:hover, .ho-link:hover {
     color: #64b9ff; }
 
+.ho-link-gr:hover {
+  color: #999999; }
+
 /* Positioning/Alignment
   ========================================================================== */
 .bl {
@@ -652,9 +655,9 @@ a, .ho-link {
   -moz-transition: all 0.4s ease-in-out; }
 
 .med-tr {
-  transition: all 0.4s ease;
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease; }
+  transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease; }
 
 .opacity:hover {
   opacity: 0.8;
@@ -863,6 +866,11 @@ a, .ho-link {
   .wk-blurb {
     width: 45%;
     padding-top: 0; }
+
+  .blurb-mmnt {
+    margin: 25px auto; }
+    .blurb-mmnt .btn {
+      margin-left: 101px; }
 
   .blurb-gro {
     margin: 25px auto; }
