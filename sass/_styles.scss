@@ -97,7 +97,8 @@ a, .ho-link  { text-decoration: none;
 .mlsm { margin-left: 1rem; }
 .mlmini { margin-left: 0.5rem; }
 
-/* Left */
+/* Right */
+.prmini { padding-right: 0.5rem; }
 .prsm { padding-right: 1rem; }
 .prme { padding-right: 2rem; }
 
@@ -132,6 +133,8 @@ a, .ho-link  { text-decoration: none;
 
 /* Nothing whatsoever */
 .no-marg { margin: 0; }
+.no-mb {margin-bottom:0;}
+.no-mt {margin-top:0;}
 .no-p { padding: 0; }
 
 

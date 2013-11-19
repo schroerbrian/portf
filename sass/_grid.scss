@@ -50,6 +50,8 @@
   text-align: center;
 }
 
+.prmini { padding-right: 1rem; }
+
 
 }
 
@@ -61,6 +63,7 @@
     padding-left: 3rem;
     padding-right: 3rem;
   }
+
 }
 
 /* Large - only targets 2nd breakpoint. Styles do not extend below 64em.
@@ -137,31 +140,35 @@
   }
 
   .wk-blurb {
-    width: 45%;
+    width: 50%;
     padding-top: 0;
   }
 
   .blurb-mmnt {
-    margin: 25px auto;
+    margin-top: 20px;
+    margin-right: 10px;
     .btn {
       margin-left: 101px;
     }
   }
 
   .blurb-gro {
-    margin: 25px auto;
+    margin-top: 20px;
+    margin-right: 10px;  
   }
 
   .blurb-loc {
-    margin: 25px auto;
+    margin-top: 30px;
+    margin-right: 10px;    
   }
 
   .blurb-tai {
-    margin: 25px auto;
+    margin-top: 20px;
+    margin-right: 10px;    
   }
 
   .btn-links {
-    width: 100%;
+    width: 102%;
   }
 
   .btn {

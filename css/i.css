@@ -1,3 +1,4 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo|fontawesome|maki);
 /* ==========================================================================
    Imports
    ========================================================================== */
@@ -369,6 +370,9 @@ p {
 .dkgray, .dkgrey {
   color: #222222; }
 
+.nb {
+  color: #2b2b2b; }
+
 .sky-blue {
   color: #64b9ff; }
 
@@ -439,6 +443,20 @@ blockquote {
 
 .sz24 {
   font-size: 24px; }
+
+/* Fonts
+   ========================================================================== */
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif; }
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif; }
+
+/* maki */
+[class*="maki-"]:before {
+  font-family: 'maki', sans-serif; }
 
 /* Not-small (anything bigger than your first breakpoint) */
 /* Medium - only targets 1st breakpoint. Styles do not extend past 64em.
@@ -605,7 +623,10 @@ a, .ho-link {
 .mlmini {
   margin-left: 0.5rem; }
 
-/* Left */
+/* Right */
+.prmini {
+  padding-right: 0.5rem; }
+
 .prsm {
   padding-right: 1rem; }
 
@@ -641,6 +662,12 @@ a, .ho-link {
 /* Nothing whatsoever */
 .no-marg {
   margin: 0; }
+
+.no-mb {
+  margin-bottom: 0; }
+
+.no-mt {
+  margin-top: 0; }
 
 .no-p {
   padding: 0; }
@@ -797,7 +824,10 @@ a, .ho-link {
       margin-left: 1.5rem; }
 
   .contact {
-    text-align: center; } }
+    text-align: center; }
+
+  .prmini {
+    padding-right: 1rem; } }
 /* Medium - only targets 1st breakpoint. Styles do not extend past 64em.
    ========================================================================== */
 @media screen and (min-width: 48em) and (max-width: 64em) {
@@ -857,25 +887,29 @@ a, .ho-link {
     margin: auto; }
 
   .wk-blurb {
-    width: 45%;
+    width: 50%;
     padding-top: 0; }
 
   .blurb-mmnt {
-    margin: 25px auto; }
+    margin-top: 20px;
+    margin-right: 10px; }
     .blurb-mmnt .btn {
       margin-left: 101px; }
 
   .blurb-gro {
-    margin: 25px auto; }
+    margin-top: 20px;
+    margin-right: 10px; }
 
   .blurb-loc {
-    margin: 25px auto; }
+    margin-top: 30px;
+    margin-right: 10px; }
 
   .blurb-tai {
-    margin: 25px auto; }
+    margin-top: 20px;
+    margin-right: 10px; }
 
   .btn-links {
-    width: 100%; }
+    width: 102%; }
 
   .btn {
     width: 46%; }
